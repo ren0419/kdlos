@@ -56,6 +56,8 @@ struct GroupDetailView: View {
                             headingText: "Gallery",
                             genderColor: genderColor
                         )
+                        .padding(.top, 8)
+                        .padding(.bottom, 12)
                         
                         InsetGalleryView(groupData: groupData)
                     }
@@ -67,6 +69,9 @@ struct GroupDetailView: View {
                             headingText: "All about \(groupData.name)",
                             genderColor: genderColor
                         )
+                        .padding(.top, 8)
+                        .padding(.bottom, 12)
+                        
                         
                         Text(groupData.description)
                             .multilineTextAlignment(.leading)
@@ -80,10 +85,12 @@ struct GroupDetailView: View {
                             headingText: "Members",
                             genderColor: genderColor
                         )
+                        .padding(.top, 8)
+                        .padding(.bottom, 12)
                         
                         
                         ForEach(members) { member in
-                            NavigationLink(destination: MemberProfileView()) {
+                            NavigationLink(destination: MemberProfileView(member: member)) {
                                 HStack {
                                     MemberListItemView(member: member)
                                     Spacer()
@@ -100,6 +107,8 @@ struct GroupDetailView: View {
                             headingText: "Learn More",
                             genderColor: genderColor
                         )
+                        .padding(.top, 8)
+                        .padding(.bottom, 12)
                         ExternalWebLinkView(groupData: groupData)
                     }
                     

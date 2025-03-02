@@ -21,7 +21,6 @@ struct HeadingView: View {
             Text(headingText)
                 .font(.title3.weight(.bold))
         }
-        .padding(.vertical)
     }
 }
 

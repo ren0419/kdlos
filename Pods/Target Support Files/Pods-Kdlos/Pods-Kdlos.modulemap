@@ -1,0 +1,6 @@
+framework module Pods_Kdlos {
+  umbrella header "Pods-Kdlos-umbrella.h"
+
+  export *
+  module * { export * }
+}

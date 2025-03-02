@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3AED6BC03380C0382ADC01B9 /* Pods_Kdlos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC863F923764A162571BA8E7 /* Pods_Kdlos.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		28335A643822166D17F74CFF /* Pods-Kdlos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kdlos.release.xcconfig"; path = "Target Support Files/Pods-Kdlos/Pods-Kdlos.release.xcconfig"; sourceTree = "<group>"; };
+		9AF56FABD4386C7D76800D7C /* Pods-Kdlos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kdlos.debug.xcconfig"; path = "Target Support Files/Pods-Kdlos/Pods-Kdlos.debug.xcconfig"; sourceTree = "<group>"; };
 		A5D39D8E2D714F1800E04090 /* Kdlos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kdlos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC863F923764A162571BA8E7 /* Pods_Kdlos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kdlos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,17 +30,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AED6BC03380C0382ADC01B9 /* Pods_Kdlos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B5D0CF72E4228080B87A6F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AF56FABD4386C7D76800D7C /* Pods-Kdlos.debug.xcconfig */,
+				28335A643822166D17F74CFF /* Pods-Kdlos.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A5D39D852D714F1800E04090 = {
 			isa = PBXGroup;
 			children = (
 				A5D39D902D714F1800E04090 /* Kdlos */,
 				A5D39D8F2D714F1800E04090 /* Products */,
+				2B5D0CF72E4228080B87A6F3 /* Pods */,
+				BA63C2C877BEFD45196A3D09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +64,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		BA63C2C877BEFD45196A3D09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC863F923764A162571BA8E7 /* Pods_Kdlos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -52,6 +79,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5D39D9C2D714F1900E04090 /* Build configuration list for PBXNativeTarget "Kdlos" */;
 			buildPhases = (
+				1971F85B613A36642A064FA9 /* [CP] Check Pods Manifest.lock */,
 				A5D39D8A2D714F1800E04090 /* Sources */,
 				A5D39D8B2D714F1800E04090 /* Frameworks */,
 				A5D39D8C2D714F1800E04090 /* Resources */,
@@ -64,8 +92,6 @@
 				A5D39D902D714F1800E04090 /* Kdlos */,
 			);
 			name = Kdlos;
-			packageProductDependencies = (
-			);
 			productName = Kdlos;
 			productReference = A5D39D8E2D714F1800E04090 /* Kdlos.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +139,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1971F85B613A36642A064FA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kdlos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A5D39D8A2D714F1800E04090 /* Sources */ = {
@@ -246,6 +297,7 @@
 		};
 		A5D39D9D2D714F1900E04090 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AF56FABD4386C7D76800D7C /* Pods-Kdlos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -276,6 +328,7 @@
 		};
 		A5D39D9E2D714F1900E04090 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28335A643822166D17F74CFF /* Pods-Kdlos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
