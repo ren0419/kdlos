@@ -1,0 +1,56 @@
+[
+    {
+        "id": "aespa-1",
+        "imageName": "aespa-m-1",
+        "name": "KARINA",
+        "jpName": "カリナ",
+        "krName": "카리나",
+        "birthday": "2000.04.11",
+        "mbti": "INFJ",
+        "country": "korea",
+        "position": "Leader, Main Dancer, Lead Rapper, Sub Vocalist",
+        "description": "カリナは、韓国出身のリーダーであり、メインダンサー、リードラッパー、サブボーカリストとして活躍しています。デビュー前から注目を集め、SHINeeのテミンのミュージックビデオに出演するなど、多方面で才能を発揮しています。",
+        "instagramLink": "https://www.instagram.com/aespa_official/"
+    },
+    {
+        "id": "aespa-2",
+        "imageName": "aespa-m-2",
+        "name": "GISELLE",
+        "jpName": "ジゼル",
+        "krName": "지젤",
+        "birthday": "2000.10.30",
+        "mbti": "ENFP",
+        "country": "japan",
+        "position": "Main Rapper, Sub Vocalist",
+        "description": "ジゼルは、日本出身のメインラッパーであり、サブボーカリストとしても活動しています。韓国語、英語、日本語の3か国語を操るトライリンガルであり、その多言語能力を活かしてグローバルな活動を展開しています。",
+        "instagramLink": "https://www.instagram.com/aespa_official/"
+    },
+    {
+        "id": "aespa-3",
+        "imageName": "aespa-m-3",
+        "name": "WINTER",
+        "jpName": "ウィンター",
+        "krName": "윈터",
+        "birthday": "2001.01.01",
+        "mbti": "ISFP",
+        "country": "korea",
+        "position": "Lead Vocalist, Lead Dancer",
+        "description": "ウィンターは、韓国出身のリードボーカリスト兼リードダンサーです。高い歌唱力とダンススキルでグループを支え、デビュー前からその才能が注目されていました。",
+        "instagramLink": "https://www.instagram.com/aespa_official/"
+    },
+    {
+        "id": "aespa-4",
+        "imageName": "aespa-m-4",
+        "name": "NINGNING",
+        "jpName": "ニンニン",
+        "krName": "닝닝",
+        "birthday": "2002.10.23",
+        "mbti": "ENFP",
+        "country": "china",
+        "position": "Main Vocalist",
+        "description": "ニンニンは、中国出身のメインボーカリストであり、卓越した歌唱力で知られています。デビュー前からSMエンターテインメントの練習生として活動し、その実力で多くのファンを魅了しています。",
+        "instagramLink": "https://www.instagram.com/aespa_official/"
+    }
+]
+
+ 

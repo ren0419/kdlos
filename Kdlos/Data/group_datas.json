@@ -1,0 +1,179 @@
+[
+  {
+    "id": "nouera",
+    "gender": "boys",
+    "name": "NouerA",
+    "headline": "NouerAは、サバイバル番組『MAKEMATE1』から誕生した韓国のボーイズグループです。",
+    "description": "NouerAは、韓国のサバイバル番組『MAKEMATE1』を通じて結成されたボーイズグループで、デビュー以来、多くのファンを魅了しています。彼らの音楽とパフォーマンスは、多彩でエネルギッシュなスタイルが特徴です。",
+    "imageName": "nouera",
+    "link": "https://kprofiles.com/nouera-members-profile/",
+    "galleries": ["nouera-1", "nouera-2", "nouera-3", "nouera-4"],
+    "members": ["メンバー情報が不足しています"]
+  },
+  {
+    "id": "closeyoureyes",
+    "gender": "boys",
+    "name": "Close Your Eyes",
+    "headline": "Close Your Eyesは、韓国の新進気鋭のボーイズグループです。",
+    "description": "Close Your Eyesは、韓国の音楽シーンで注目を集めているボーイズグループで、独自の音楽スタイルとパフォーマンスでファンを魅了しています。",
+    "imageName": "closeyoureyes",
+    "link": "情報が見つかりませんでした",
+    "galleries": [
+      "closeyoureyes-1",
+      "closeyoureyes-2",
+      "closeyoureyes-3",
+      "closeyoureyes-4"
+    ],
+    "members": ["メンバー情報が不足しています"]
+  },
+  {
+    "id": "straykids",
+    "gender": "boys",
+    "name": "Stray Kids",
+    "headline": "Stray Kidsは、JYPエンターテインメント所属の韓国の人気ボーイズグループです。",
+    "description": "Stray Kidsは、2017年に結成された韓国のボーイズグループで、自己プロデュース能力と力強いパフォーマンスで知られています。彼らは多様な音楽ジャンルを取り入れ、世界中で高い人気を誇っています。",
+    "imageName": "straykids",
+    "link": "https://ja.wikipedia.org/wiki/Stray_Kids",
+    "galleries": ["straykids-1", "straykids-2", "straykids-3", "straykids-4"],
+    "members": [
+      "バンチャン",
+      "リノ",
+      "チャンビン",
+      "ヒョンジン",
+      "ハン",
+      "フィリックス",
+      "スンミン",
+      "アイエン"
+    ]
+  },
+  {
+    "id": "zerobaseone",
+    "gender": "boys",
+    "name": "ZEROBASEONE",
+    "headline": "ZEROBASEONEは、Mnetのサバイバル番組『Boys Planet』から誕生した韓国のボーイズグループです。",
+    "description": "ZEROBASEONEは、2023年にMnetのサバイバル番組『Boys Planet』を通じて結成された9人組のボーイズグループです。デビューアルバム『Youth in the Shade』は200万枚以上を売り上げ、韓国のデビューアルバムとしては最高の売上を記録しました。",
+    "imageName": "zerobaseone",
+    "link": "https://ja.wikipedia.org/wiki/Zerobaseone",
+    "galleries": [
+      "zerobaseone-1",
+      "zerobaseone-2",
+      "zerobaseone-3",
+      "zerobaseone-4"
+    ],
+    "members": [
+      "キム・ジウン",
+      "ジャン・ハオ",
+      "ソン・ハンビン",
+      "ソク・マシュー",
+      "キム・テレ",
+      "リッキー",
+      "キム・ギュビン",
+      "パク・ゴヌク",
+      "ハン・ユジン"
+    ]
+  },
+  {
+    "id": "evnne",
+    "gender": "boys",
+    "name": "EVNNE",
+    "headline": "EVNNEは、Mnetのサバイバル番組『Boys Planet』の参加者から構成された韓国のボーイズグループです。",
+    "description": "EVNNEは、Mnetのサバイバル番組『Boys Planet』に参加した7人のメンバーで構成されたボーイズグループです。彼らは2023年9月18日にデビューし、デビューアルバムは初週で24万枚以上を売り上げました。",
+    "imageName": "evnne",
+    "link": "https://www.allkpop.com/article/2023/08/boys-planet-byproduct-group-evnne-announces-official-debut-date",
+    "galleries": ["evnne-1", "evnne-2", "evnne-3", "evnne-4"],
+    "members": [
+      "パク・ハンビン",
+      "イ・ジョンヒョン",
+      "ムン・ジョンヒョン",
+      "パク・ジフ",
+      "ユ・スンオン",
+      "ジ・ユンソ",
+      "ケイタ"
+    ]
+  },
+  {
+    "id": "ateez",
+    "gender": "boys",
+    "name": "ATEEZ",
+    "headline": "ATEEZは、KQエンターテインメント所属の韓国のボーイズグループです。",
+    "description": "ATEEZは、2018年にデビューした8人組のボーイズグループで、パワフルなパフォーマンスと多様な音楽スタイルで知られています。彼らは国内外で高い人気を誇り、多くの音楽賞を受賞しています。",
+    "imageName": "ateez",
+    "link": "https://ja.wikipedia.org/wiki",
+    "galleries": ["evnne-1", "evnne-2", "evnne-3", "evnne-4"],
+    "members": [
+      "パク・ハンビン",
+      "イ・ジョンヒョン",
+      "ムン・ジョンヒョン",
+      "パク・ジフ",
+      "ユ・スンオン",
+      "ジ・ユンソ",
+      "ケイタ"
+    ]
+  },
+  {
+      "id": "babymonster",
+      "gender": "girls",
+      "name": "BABYMONSTER",
+      "headline": "BABYMONSTERは、YGエンターテインメントが輩出した新世代のガールズグループ。",
+      "description": "BABYMONSTERは、2023年にデビューしたYGエンターテインメントの7人組ガールズグループ。デビュー前から『BLACKPINKの妹分』として注目され、圧倒的なパフォーマンス力とカリスマ性で急速にファンダムを拡大しています。",
+      "imageName": "babymonster",
+      "link": "https://ja.wikipedia.org/wiki/BABYMONSTER",
+      "galleries": ["babymonster-1", "babymonster-2", "babymonster-3", "babymonster-4"],
+      "members": ["ルカ", "ファリタ", "アヒョン", "ローラ", "ラム", "チキータ", "ハラム"]
+  },
+  {
+      "id": "gidle",
+      "gender": "girls",
+      "name": "(G)I-DLE",
+      "headline": "(G)I-DLEは、CUBEエンターテインメント所属の自己プロデュース型ガールズグループ。",
+      "description": "(G)I-DLEは、2018年にCUBEエンターテインメントからデビューした5人組のガールズグループ。リーダーのソヨンを中心に、楽曲制作やパフォーマンスの面で高い自主性を持ち、独創的な音楽スタイルで世界的に人気を博しています。",
+      "imageName": "gidle",
+      "link": "https://ja.wikipedia.org/wiki/(G)I-DLE",
+      "galleries": ["gidle-1", "gidle-2", "gidle-3", "gidle-4"],
+      "members": ["ソヨン", "ミンニ", "ミヨン", "ウギ", "シュファ"]
+  },
+  {
+      "id": "ive",
+      "gender": "girls",
+      "name": "IVE",
+      "headline": "IVEは、2021年にデビューしたStarshipエンターテインメントのガールズグループ。",
+      "description": "IVEは、IZ*ONE出身のユジンとウォニョンを中心に結成された6人組のガールズグループ。デビュー曲『ELEVEN』から続くヒット曲で、国内外の音楽チャートを席巻し、韓国の第4世代トップアイドルとしての地位を確立しています。",
+      "imageName": "ive",
+      "link": "https://ja.wikipedia.org/wiki/IVE",
+      "galleries": ["ive-1", "ive-2", "ive-3", "ive-4"],
+      "members": ["ユジン", "ガウル", "レイ", "ウォニョン", "リズ", "イソ"]
+  },
+  {
+      "id": "newjeans",
+      "gender": "girls",
+      "name": "NewJeans",
+      "headline": "NewJeansは、HYBE傘下ADORが手掛けた新世代のガールズグループ。",
+      "description": "NewJeansは、2022年にデビューした5人組ガールズグループで、レトロな音楽スタイルと自然体なビジュアルコンセプトで一躍注目を浴びました。デビュー曲『Attention』や『Hype Boy』が大ヒットし、次世代のガールズグループとして確固たる地位を築いています。",
+      "imageName": "newjeans",
+      "link": "https://ja.wikipedia.org/wiki/NewJeans",
+      "galleries": ["newjeans-1", "newjeans-2", "newjeans-3", "newjeans-4"],
+      "members": ["ミンジ", "ハニ", "ダニエル", "ヘリン", "ヘイン"]
+  },
+  {
+      "id": "aespa",
+      "gender": "girls",
+      "name": "aespa",
+      "headline": "aespaは、SMエンターテインメントが手掛ける革新的なバーチャル概念のガールズグループ。",
+      "description": "aespaは、2020年にデビューした4人組ガールズグループで、仮想空間に存在するアバター『æ』との連携コンセプトが特徴。強烈な楽曲と独創的な世界観で世界中のファンを魅了し、K-POPの新たな可能性を切り拓いています。",
+      "imageName": "aespa",
+      "link": "https://ja.wikipedia.org/wiki/Aespa",
+      "galleries": ["aespa-1", "aespa-2", "aespa-3", "aespa-4"],
+      "members": ["カリナ", "ジゼル", "ウィンター", "ニンニン"]
+  },
+  {
+      "id": "illit",
+      "gender": "girls",
+      "name": "ILLIT",
+      "headline": "ILLITは、BELIFT LABが手掛けるHYBE傘下の新生ガールズグループ。",
+      "description": "ILLITは、2024年にデビュー予定の5人組ガールズグループで、サバイバル番組『R U NEXT?』から誕生。実力とビジュアルを兼ね備えたメンバーたちが、次世代のガールズグループとして期待されています。",
+      "imageName": "illit",
+      "link": "https://kprofiles.com/illit-members-profile/",
+      "galleries": ["illit-1", "illit-2", "illit-3", "illit-4"],
+      "members": ["ユナ", "ミンジュ", "イロハ", "モカ", "ウォンヒ"]
+  }
+]
