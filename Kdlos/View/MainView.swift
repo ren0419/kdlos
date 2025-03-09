@@ -16,11 +16,11 @@ struct MainView: View {
                     Text("HOME")
                 }
             
-//            VideoView()
-//                .tabItem {
-//                    Image(systemName: "play.rectangle")
-//                    Text("VIDEO")
-//                }
+            VoteView()
+                .tabItem {
+                    Image(systemName: "archivebox.fill")
+                    Text("Vote")
+                }
             
             GalleryView()
                 .tabItem {
