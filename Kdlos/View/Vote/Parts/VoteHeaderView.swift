@@ -13,23 +13,12 @@ struct VoteHeaderView: View {
     
     var body: some View {
         HStack {
-            Button {
-                self.showInfoView.toggle()
-            } label: {
-                Image(systemName: "info.circle")
-                    .font(.system(size: 24, weight: .regular))
-            }
-            .tint(.accent)
-            .sheet(isPresented: $showInfoView) {
-                VoteInfoView()
-            }
+            
             
             Spacer()
             
-            Image(systemName: "star.fill")
-                .resizable()
-                .scaledToFit()
-                .frame(height: 28)
+            Text("VOTE")
+                .font(.headline.weight(.black))
             
             Spacer()
             

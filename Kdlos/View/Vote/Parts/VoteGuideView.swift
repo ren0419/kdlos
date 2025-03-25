@@ -23,7 +23,7 @@ struct VoteGuideView: View {
                     .fontWeight(.black)
                     .modifier(TitleModifier())
                 
-                Text("Discover and pick the perfect destination for your romantic Honeymoon!")
+                Text("Discover and pick the member for you!")
                     .lineLimit(nil)
                     .multilineTextAlignment(.center)
                 
@@ -33,21 +33,21 @@ struct VoteGuideView: View {
                     GuideComponent(
                         title: "Like",
                         subtitle: "Swipe right",
-                        description: "Do you like this destination? Touch the screen and swipe right. It will be saved to the favorites",
+                        description: "Are you intereted in this member? Touch the screen and swipe right. It will be saved to the favorites",
                         icon: "heart.circle"
                     )
                     
                     GuideComponent(
                         title: "Dismiss",
                         subtitle: "Swipe left",
-                        description: "Do you like this destination? Touch the screen and swipe right. It will be saved to the favorites",
+                        description: "Not intereted in this member? Touch the screen and swipe right. It will be shown the next one without saving",
                         icon: "xmark.circle"
                     )
                     
                     GuideComponent(
                         title: "Book",
                         subtitle: "Tap the  button",
-                        description: "Do you like this destination? Touch the screen and swipe right. It will be saved to the favorites",
+                        description: "Do you want to keep this member? Touch the BOOK button. It will be keeped in bookmarks",
                         icon: "checkmark.square"
                     )
                 }

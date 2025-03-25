@@ -161,8 +161,8 @@ struct VoteView: View {
         .alert(isPresented: $showAlert) {
             Alert(
                 title: Text("SUCCESS"),
-                message: Text("WIshitng alve luy and mosrt recioius of the times together for the amazing!"),
-                dismissButton: .default(Text("Happy Honeymoon!"))
+                message: Text("This has been added to your KeepList."),
+                dismissButton: .default(Text("Happy Voiting!"))
             )
         }
     }
